@@ -1,0 +1,22 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-box {
+  border: 1px solid #1976d2;
+  padding: 5px;
+  border-radius: 5px;
+
+  div {
+    border-radius: 5px;
+    border: 1px solid #1976d2;
+    padding: 5px;
+    margin: 5px;
+  }
+}
+
+.valid {
+  color: red !important;
+}
